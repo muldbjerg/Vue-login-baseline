@@ -1,11 +1,11 @@
 <template>
   <div id="login">
-    <h3>Opret en en ny bruger</h3>
+    <h3>Sign up for new account</h3>
     <input type="text" v-model="email" placeholder="Email" />
     <input type="password" v-model="password" placeholder="Password" />
-    <button @click="signup">Opret brugeren</button>
+    <button @click="signup">Sign up</button>
     <p>
-      <router-link to="/login">Gå tilbage til login</router-link>
+      <router-link to="/login">Go back to login</router-link>
     </p>
   </div>
 </template>
@@ -28,7 +28,6 @@ export default {
         .createUserWithEmailAndPassword(this.email, this.password)
         .then(
           user => {
-            console.log("Din nye konto er oprettet");
             this.$router.replace("login");
           },
           error => {

@@ -8,6 +8,7 @@ Vue.config.productionTip = false;
 let app = "";
 
 // Initialize Firebase
+// Add credentials for firebase here
 let config = {
     apiKey: "YOUR_API_KEY",
     authDomain: "YOUR_PROJECT_ID.firebaseapp.com",

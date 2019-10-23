@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png" />
-    <button @click="signout">Log ud</button>
+    <button @click="signout">Logout</button>
   </div>
 </template>
 
