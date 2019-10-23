@@ -1,4 +1,8 @@
-# storybox
+# Vue Login baseline
+
+This repository is made as a VueJS3 baseline application with firebase authentication. It is without styling, and meant as a starting point for VueJs projects that needs firebase authentication. 
+
+
 
 ## Project setup
 ```
@@ -13,14 +17,4 @@ npm run serve
 ### Compiles and minifies for production
 ```
 npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
 ```
